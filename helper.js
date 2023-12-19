@@ -3,10 +3,15 @@ function isLetter(char) {
 }
 
 function isInteger(char) {
-    return char >= "0".charCodeAt(0) && char <= "9".charCodeAt(0)
+    return isSkippable(char) ? false : !isNaN(char);
+}
+
+function isSkippable(char) {
+    return char == " " || char == "\n" || char == "\t"
 }
 
 module.exports = {
     isLetter,
-    isInteger
+    isInteger,
+    isSkippable
 }
