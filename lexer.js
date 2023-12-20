@@ -66,7 +66,7 @@ function tokenize(sourceCode) {
             tokens.push(new Token(src.shift(), TokenType.ClosePeren))
         } else if (src[0] == "=") {
             // Push equal sign token to tokens array
-            tokens.push(new Token(src.shift(), TokenType.OpenPeren))
+            tokens.push(new Token(src.shift(), TokenType.Equals))
         } else if (src[0] == "+" || src[0] == "-" || src[0] == "*" || src[0] == "/") {
             // Push operand tokens to token array
             tokens.push(new Token(src.shift(), TokenType.Operand))
