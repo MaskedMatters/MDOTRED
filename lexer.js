@@ -105,7 +105,7 @@ function tokenize(sourceCode) {
                     tokens.push(new Token(ident, TokenType.Identifier))
                 }
 
-            } else if (helper.isSkippable) {
+            } else if (helper.isSkippable(src[0])) {
                 src.shift()
             } else {
                 console.log("THAT IS A BIG FAT UNIDENTIFIABLE CHARACTER: " + src[0])
