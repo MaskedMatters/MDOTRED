@@ -80,4 +80,8 @@ The first version of M.R was going to be written in TS with either a NodeJS expe
 
 # How to Contribute
 
-To log an issue visit our [Issue Tracker](https://github.com/MaskedMatters/MDOTRED/issues) and use the corresponding tag so we can prioritize the issues. You can also contribute to this project by forking it and making a pull request at the [Pull Request](https://github.com/MaskedMatters/MDOTRED/pulls) page. If you are a frequent contributor to the project you can request to become a member by commenting with tag "reqmember"
+To log an issue visit our [Issue Tracker](https://github.com/MaskedMatters/MDOTRED/issues) and use the corresponding tag so we can prioritize the issues. You can also contribute to this project by forking it and making a pull request at the [Pull Request](https://github.com/MaskedMatters/MDOTRED/pulls) page. If you are a frequent contributor to the project you can request to become a member by commenting with tag "reqmember".
+
+# Installation & Usage
+
+We currently don't support other people installing or using this language.
