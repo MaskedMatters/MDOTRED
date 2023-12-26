@@ -58,6 +58,26 @@ It's important to note that this is just a glimpse into MDOTRED's capabilities. 
 
 Feel free to explore the rest of the MDOTRED Wiki to gain a deeper understanding of the language and discover its diverse applications. Happy coding with MDOTRED!
 
+# Developer Stuffs
+This section shows everything developers might want to see. People can see this to edit the code or see what changed.
+
+### Changelog
+1. The warning message has been changed
+2. A changelog has been added
+3. isInteger function now uses the isNaN JS function
+4. A keyword object has been added
+5. Check if token is integer finished
+6. Check if token is letter addedd. If ident is a reserved keyword add VarType TokenType
+7. Check if token is skippable or "\s", "\n", "\t"
+8. Character not recognized method
+
+I also added the code at the end to run a test MDOTRED file and display the tokens
+
+### Runtime & Language
+I coded this language in Vanilla JS and it's run internally using the current NodeJS LTS version.
+
+The first version of M.R was going to be written in TS with either a NodeJS experimental features version or Deno. This was changed to normal JS and a LTS ver. of NodeJS.
+
 # How to Contribute
 
 To log an issue visit our [Issue Tracker](https://github.com/MaskedMatters/MDOTRED/issues) and use the corresponding tag so we can prioritize the issues. You can also contribute to this project by forking it and making a pull request at the [Pull Request](https://github.com/MaskedMatters/MDOTRED/pulls) page. If you are a frequent contributor to the project you can request to become a member by commenting with tag "reqmember"
