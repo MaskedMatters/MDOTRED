@@ -57,3 +57,7 @@ In this example, you can observe the C#-inspired syntax used within the MDOTRED 
 It's important to note that this is just a glimpse into MDOTRED's capabilities. The language, with its unique blend of syntax and features, enables developers like Matthew to express their ideas efficiently.
 
 Feel free to explore the rest of the MDOTRED Wiki to gain a deeper understanding of the language and discover its diverse applications. Happy coding with MDOTRED!
+
+# How to Contribute
+
+To log an issue visit our [Issue Tracker](https://github.com/MaskedMatters/MDOTRED/issues) and use the corresponding tag so we can prioritize the issues. You can also contribute to this project by forking it and making a pull request at the [Pull Request](https://github.com/MaskedMatters/MDOTRED/pulls) page. If you are a frequent contributor to the project you can request to become a member by commenting with tag "reqmember"
